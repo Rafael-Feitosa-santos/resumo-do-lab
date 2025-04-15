@@ -57,5 +57,3 @@ Esse lab foi essencial para compreender os princípios básicos da computação 
 **Desenvolvido por:**  
 | <img src="https://avatars.githubusercontent.com/u/127707049?v=4" width="100px"><br><sub>Rafael Feitosa Santos</sub> |  
 | :---: |
-
-🔗 [Acesse meu GitHub](https://github.com/Rafael-Feitosa-santos)
