@@ -30,13 +30,31 @@ Este repositório faz parte do desafio proposto pela DIO, com foco nos fundament
 - Descobri como **ligar, parar e excluir** a máquina virtual pelo portal para evitar cobranças desnecessárias.
 - Entendi que uma VM é como um "computador virtual" na nuvem, e pode ser usada para testes, desenvolvimento ou hospedagem de aplicações.
 
+## Recursos Avançados de VM: SLA, Escalabilidade e Alta Disponibilidade
+
+- **SLA (Acordo de Nível de Serviço)** define a garantia de disponibilidade fornecida pelo provedor de nuvem.
+  - Exemplo: SLA de 99,9% permite até 43 minutos de indisponibilidade por mês.
+  - Quanto maior o SLA, maior a confiabilidade do serviço.
+
+- **Alta Disponibilidade**:
+  - Aprendi que é possível criar VMs em **zonas diferentes** dentro da mesma região.
+  - Isso garante que, se uma zona falhar, outra possa assumir e manter o sistema funcionando.
+
+- **Escalabilidade**:
+  - A nuvem permite escalar verticalmente (aumentar recursos de uma VM) ou horizontalmente (adicionar mais VMs).
+  - Isso ajuda a manter o desempenho do sistema conforme a demanda cresce.
+
+- **Tolerância a Falhas**:
+  - A criação de VMs em múltiplas zonas e o uso de backups evitam perda de dados e paradas inesperadas.
+  - Isso garante continuidade nos serviços mesmo em caso de falhas.
+
 ## Considerações Finais
 
 Esse lab foi essencial para compreender os princípios básicos da computação em nuvem e me sentir mais preparado para explorar soluções com o Microsoft Azure. Estou animado(a) para continuar aprendendo e aplicando esses conhecimentos em projetos reais.
 
 ---
 
-**Desenvolvido por:  
+**Desenvolvido por:**  
 | <img src="https://avatars.githubusercontent.com/u/127707049?v=4" width="100px"><br><sub>Rafael Feitosa Santos</sub> |  
 | :---: |
 
