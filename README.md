@@ -22,14 +22,22 @@ Este repositório faz parte do desafio proposto pela DIO, com foco nos fundament
 
 - **Como criar uma conta no Azure**: Através de tutoriais e vídeos, entendi o passo a passo para registrar uma conta gratuita e começar a utilizar os serviços em nuvem da Microsoft.
 
+## Primeiros Passos com Máquina Virtual (VM)
+
+- Aprendi a criar uma **máquina virtual** no Azure, escolhendo o sistema operacional, região, tamanho e nome.
+- Entendi o que é um **grupo de recursos**, e como ele organiza os serviços criados.
+- Vi como configurar a **rede virtual** e permitir acesso remoto via RDP (Windows) ou SSH (Linux).
+- Descobri como **ligar, parar e excluir** a máquina virtual pelo portal para evitar cobranças desnecessárias.
+- Entendi que uma VM é como um "computador virtual" na nuvem, e pode ser usada para testes, desenvolvimento ou hospedagem de aplicações.
+
 ## Considerações Finais
 
 Esse lab foi essencial para compreender os princípios básicos da computação em nuvem e me sentir mais preparado para explorar soluções com o Microsoft Azure. Estou animado(a) para continuar aprendendo e aplicando esses conhecimentos em projetos reais.
 
 ---
 
-**Desenvolvido por:
-| <img src="https://avatars.githubusercontent.com/u/127707049?v=4" width="100px"><br><sub>Rafael Feitosa Santos</sub> |
+**Desenvolvido por:  
+| <img src="https://avatars.githubusercontent.com/u/127707049?v=4" width="100px"><br><sub>Rafael Feitosa Santos</sub> |  
 | :---: |
 
 🔗 [Acesse meu GitHub](https://github.com/Rafael-Feitosa-santos)
