@@ -48,9 +48,28 @@ Este repositório faz parte do desafio proposto pela DIO, com foco nos fundament
   - A criação de VMs em múltiplas zonas e o uso de backups evitam perda de dados e paradas inesperadas.
   - Isso garante continuidade nos serviços mesmo em caso de falhas.
 
-## Considerações Finais
+## Modelos de Computação em Nuvem
 
-Esse lab foi essencial para compreender os princípios básicos da computação em nuvem e me sentir mais preparado para explorar soluções com o Microsoft Azure. Estou animado(a) para continuar aprendendo e aplicando esses conhecimentos em projetos reais.
+### IaaS (Infrastructure as a Service)
+Você aluga a infraestrutura (servidores, rede, armazenamento) e gerencia o que roda nela.
+
+- **Exemplo:** AWS EC2, Microsoft Azure, Google Compute Engine.
+- **Analogia simples:** Alugar um terreno para construir sua casa — você decide tudo, mas precisa cuidar de tudo também.
+
+### PaaS (Platform as a Service)
+Você usa uma plataforma pronta para desenvolver e hospedar aplicações, sem se preocupar com servidores.
+
+- **Exemplo:** Heroku, Google App Engine, Azure App Service.
+- **Analogia simples:** Alugar uma casa pronta onde você só precisa decorar e morar.
+
+### SaaS (Software as a Service)
+Você usa um software pronto, acessado pela internet, sem se preocupar com nada técnico.
+
+- **Exemplo:** Gmail, Google Docs, Microsoft 365.
+- **Analogia simples:** Usar um hotel — tudo já está pronto e você só aproveita o serviço.
+
+Esses modelos ajudam empresas e desenvolvedores a escolher o nível de controle e responsabilidade que desejam na nuvem.
+
 
 ---
 
