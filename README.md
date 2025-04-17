@@ -68,10 +68,26 @@ Você usa um software pronto, acessado pela internet, sem se preocupar com nada 
 - **Exemplo:** Gmail, Google Docs, Microsoft 365.
 - **Analogia simples:** Usar um hotel — tudo já está pronto e você só aproveita o serviço.
 
-Esses modelos ajudam empresas e desenvolvedores a escolher o nível de controle e responsabilidade que desejam na nuvem.
+## Componentes de Arquitetura do Azure
 
+### 🌍 Regiões, Pares de Regiões e Regiões Soberanas
+- **Regiões**: São locais físicos espalhados pelo mundo onde ficam os datacenters.
+- **Pares de regiões**: Regiões que trabalham em conjunto para oferecer redundância e recuperação de desastres.
+- **Regiões soberanas**: Criadas para atender requisitos legais específicos, como as regiões da China ou dos EUA (Governo).
 
----
+### 🏢 Zonas de Disponibilidade e Datacenters
+- **Zonas de Disponibilidade**: São áreas físicas separadas dentro de uma mesma região, com infraestrutura própria.
+- Isso permite **alta disponibilidade**, pois se uma zona falhar, outra pode assumir.
+- Cada zona pode conter um ou mais **datacenters**.
+
+### 🧱 Recursos e Grupos de Recursos
+- **Recursos**: Tudo que criamos no Azure (VMs, redes, bancos de dados etc).
+- **Grupos de recursos**: Organizam e agrupam os recursos para facilitar o gerenciamento, controle de acesso e monitoramento.
+
+### 🔐 Assinatura e Grupos de Gerenciamento
+- **Assinatura**: É onde os serviços são cobrados. Você pode ter mais de uma assinatura.
+- **Grupo de gerenciamento**: Serve para organizar várias assinaturas em níveis mais altos de controle e políticas.
+
 
 **Desenvolvido por:**  
 | <img src="https://avatars.githubusercontent.com/u/127707049?v=4" width="100px"><br><sub>Rafael Feitosa Santos</sub> |  
