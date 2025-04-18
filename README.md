@@ -88,6 +88,74 @@ Você usa um software pronto, acessado pela internet, sem se preocupar com nada 
 - **Assinatura**: É onde os serviços são cobrados. Você pode ter mais de uma assinatura.
 - **Grupo de gerenciamento**: Serve para organizar várias assinaturas em níveis mais altos de controle e políticas.
 
+## 💻 Computação no Azure
+
+### • Tipos de Computação
+O Azure oferece diferentes formas de executar aplicações, dependendo das necessidades de escalabilidade, gerenciamento e desempenho.
+
+### • Instâncias de Contêiner
+- Executam aplicações empacotadas em contêineres (como Docker).
+- Isolamento leve e rápido.
+- Ótimo para microserviços.
+- Ex: Azure Container Instances, Azure Kubernetes Service (AKS).
+
+### • Máquinas Virtuais (VMs)
+- Computadores virtuais completos na nuvem.
+- Você controla o sistema operacional, software e configurações.
+- Ideal para workloads tradicionais e personalizados.
+- Ex: Azure Virtual Machines.
+
+### • Funções (Azure Functions)
+- Execução de código sob demanda (serverless).
+- Você paga apenas pelo tempo de execução.
+- Ideal para tarefas automatizadas e eventos, como responder a uploads ou mensagens.
+
+---
+
+## 🌐 Hospedagem de Aplicativos
+
+### • Aplicativos Web do Azure (App Service)
+- Plataforma gerenciada para hospedar sites e APIs.
+- Suporta várias linguagens como .NET, Java, Node.js, Python.
+- Fácil integração com CI/CD e escalonamento automático.
+
+### • Contêineres
+- Hospedagem de aplicações empacotadas em contêineres Docker.
+- Utiliza serviços como Azure Container Apps ou AKS.
+- Escalabilidade automática e fácil gerenciamento.
+
+### • Máquinas Virtuais
+- Para hospedagem de aplicativos que exigem controle total do ambiente.
+- Você pode instalar qualquer software ou servidor de aplicação.
+
+---
+
+## 🌐 Redes Virtuais
+
+### • Redes Virtuais (VNet)
+- Permite que recursos do Azure se comuniquem entre si com segurança.
+- Pode ser dividida em sub-redes para segmentação.
+
+### • Sub-redes
+- Dividem a VNet em partes menores.
+- Facilitam a organização e segurança de recursos.
+
+### • Emparelhamento de Rede (VNet Peering)
+- Conecta VNets diferentes.
+- Tráfego entre elas é privado e de alta velocidade.
+
+### • DNS
+- Configuração personalizada de nomes de domínio internos e externos.
+- Ajuda a localizar recursos dentro e fora da rede.
+
+### • Gateway de VPN
+- Conecta sua rede local com a rede virtual do Azure via túnel criptografado.
+- Permite comunicação segura com a nuvem.
+
+### • ExpressRoute
+- Conexão privada e dedicada entre sua infraestrutura local e o Azure.
+- Mais rápida, confiável e segura do que conexões pela internet pública.
+
 
 **Desenvolvido por:**  
 | <img src="https://avatars.githubusercontent.com/u/127707049?v=4" width="100px"><br><sub>Rafael Feitosa Santos</sub> |  
